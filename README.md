@@ -1,7 +1,7 @@
 SublimeLinter-contrib-raml-cop
 ================================
 
-[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-raml-cop.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-raml-cop)
+[![Build Status](https://travis-ci.org/thebinarypenguin/SublimeLinter-contrib-raml-cop.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-raml-cop)
 
 This linter plugin for [SublimeLinter][docs] provides an interface to [raml-cop](https://github.com/thebinarypenguin/raml-cop). It will be used with files that have the “raml” syntax.
 
