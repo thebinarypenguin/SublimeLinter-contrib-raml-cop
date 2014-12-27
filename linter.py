@@ -17,15 +17,19 @@ class RamlCop(NodeLinter):
 
     """Provides an interface to raml-cop."""
 
-    syntax = ''
-    cmd = 'raml-cop'
+    syntax = 'raml'
+    cmd = 'raml-cop --no-color'
     executable = None
     version_args = '--version'
     version_re = r'(?P<version>\d+\.\d+\.\d+)'
-    version_requirement = '>= 1.0'
-    regex = r''
+    version_requirement = '>= 0.2.0'
+    regex = (
+        r'^\[.+:(?P<line>\d+):(?P<col>\d+)\] '
+        r'(?:(?P<warning>WARNING)|(?P<error>ERROR)) '
+        r'(?P<message>.+)'
+    )
     multiline = False
-    line_col_base = (1, 1)
+    line_col_base = (0, 0)
     tempfile_suffix = None
     error_stream = util.STREAM_BOTH
     selectors = {}
