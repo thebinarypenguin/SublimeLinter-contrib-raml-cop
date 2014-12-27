@@ -19,7 +19,7 @@ class RamlCop(NodeLinter):
 
     syntax = 'raml'
     cmd = 'raml-cop --no-color'
-    version_requirement = '>= 0.2.0'
+    version_requirement = '>= 1.0.0'
     regex = (
         r'^\[.+:(?P<line>\d+):(?P<col>\d+)\] '
         r'(?:(?P<warning>WARNING)|(?P<error>ERROR)) '
