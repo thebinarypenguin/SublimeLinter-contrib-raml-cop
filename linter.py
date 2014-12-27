@@ -10,7 +10,7 @@
 
 """This module exports the RamlCop plugin class."""
 
-from SublimeLinter.lint import NodeLinter, util
+from SublimeLinter.lint import NodeLinter
 
 
 class RamlCop(NodeLinter):
