@@ -2,8 +2,8 @@
 # linter.py
 # Linter for SublimeLinter3, a code checking framework for Sublime Text 3
 #
-# Written by Ethan Zimmerman,,,
-# Copyright (c) 2014 Ethan Zimmerman,,,
+# Written by Ethan Zimmerman
+# Copyright (c) 2014 Ethan Zimmerman
 #
 # License: MIT
 #
