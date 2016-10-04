@@ -22,7 +22,6 @@ class RamlCop(NodeLinter):
     version_requirement = '>= 1.0.0'
     regex = (
         r'^\[.+:(?P<line>\d+):(?P<col>\d+)\] '
-        r'(?:(?P<warning>WARNING)|(?P<error>ERROR)) '
         r'(?P<message>.+)'
     )
     line_col_base = (0, 0)
