@@ -14,7 +14,6 @@ from SublimeLinter.lint import NodeLinter
 
 
 class RamlCop(NodeLinter):
-
     """Provides an interface to raml-cop."""
 
     syntax = 'raml'
