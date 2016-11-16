@@ -25,3 +25,4 @@ class RamlCop(NodeLinter):
         r'(?P<message>.+)'
     )
     line_col_base = (0, 0)
+    tempfile_suffix = '-'
