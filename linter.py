@@ -18,8 +18,8 @@ class RamlCop(NodeLinter):
     """Provides an interface to raml-cop."""
 
     syntax = 'raml'
-    cmd = 'raml-cop --no-color'
-    version_requirement = '>= 1.0.0'
+    cmd = 'raml-cop --no-color --no-includes'
+    version_requirement = '>= 4.0.0'
     regex = (
         r'^\[.+:(?P<line>\d+):(?P<col>\d+)\] '
         r'(?P<message>.+)'
