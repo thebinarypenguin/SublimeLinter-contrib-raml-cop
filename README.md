@@ -1,3 +1,5 @@
+:exclamation: This plugin has been absorbed into https://github.com/SublimeLinter/SublimeLinter-raml-cop :exclamation:
+
 SublimeLinter-contrib-raml-cop
 ================================
 
